@@ -1,5 +1,5 @@
 <template>
-  <div id="box">
+  <div id="footer">
     <ul class="foot-list">
       <li :class="{on:'/home'=== $route.path}" @click="goTo('/home')">
          <i class="iconfont icon-home"></i>
@@ -35,7 +35,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
-  #box
+  #footer
     position fixed
     bottom 0
     left 0
